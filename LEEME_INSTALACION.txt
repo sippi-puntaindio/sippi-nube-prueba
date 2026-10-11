@@ -1,0 +1,46 @@
+SIPPI 0.2 — GUÍA DE INSTALACIÓN Y PUBLICACIÓN
+
+IMPORTANTE: Esta es una DEMOSTRACIÓN. No es un sistema municipal operativo.
+Los registros se guardan solo en el navegador (localStorage); no se sincronizan entre dispositivos.
+La vista ciudadana es ilustrativa: no recibe reclamos ni publica datos internos.
+No cargues datos personales, sensibles ni documentación confidencial.
+
+A) PROBAR EN WINDOWS SIN PUBLICAR
+1. Descomprimí SIPPI_PWA_v02.zip.
+2. Entrá en la carpeta sippi y abrí index.html con Chrome o Edge.
+3. Podés probar los formularios. Para respaldar, usá Exportar respaldo.
+4. La instalación PWA y el uso sin conexión requieren servirla desde HTTPS o localhost.
+
+B) PUBLICAR GRATIS COMO DEMOSTRACIÓN EN GITHUB PAGES
+1. En Windows abrí github.com, creá una cuenta si no tenés.
+2. Elegí New repository. Nombre sugerido: sippi-demo. Seleccioná Public y Create repository.
+3. Elegí Add file > Upload files. Subí LOS CINCO ARCHIVOS de la carpeta sippi
+   (index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png) a la raíz del repositorio.
+   No subas el ZIP ni la carpeta contenedora si querés que la URL funcione directamente.
+4. Confirmá con Commit changes.
+5. En el repositorio entrá a Settings > Pages.
+6. En Build and deployment seleccioná Deploy from a branch, rama main, carpeta /(root), Save.
+7. Esperá a que GitHub muestre la URL https://TUUSUARIO.github.io/sippi-demo/.
+8. Abrí esa dirección en Chrome o Edge en Windows y en Safari en iPhone.
+NOTA: GitHub Pages publica el código y la página de forma PÚBLICA. No subas datos privados.
+
+C) INSTALAR EN IPHONE
+1. Abrí la URL HTTPS publicada en Safari (no el archivo local).
+2. Tocá Compartir y elegí Agregar a pantalla de inicio (según versión de iOS, puede estar en Más).
+3. Activá Abrir como app si aparece y tocá Agregar.
+4. Abrí SIPPI desde su ícono.
+
+D) INSTALAR EN WINDOWS
+1. Abrí la URL HTTPS en Edge o Chrome.
+2. En Edge: menú (...) > Aplicaciones > Instalar este sitio como una aplicación.
+   En Chrome: menú (...) > Transmitir, guardar y compartir > Instalar página como aplicación
+   (la ubicación puede variar según la versión), o usá el icono de instalación en la barra.
+3. Confirmá Instalar. Podés anclar SIPPI al menú Inicio o barra de tareas.
+
+E) LÍMITES Y SIGUIENTE FASE
+- La app PWA puede abrirse sin conexión después de una primera visita con internet,
+  pero el respaldo de datos sigue siendo responsabilidad del usuario.
+- Los datos del iPhone y Windows NO se comparten. Borrar datos del navegador puede eliminarlos.
+- Para un SIPPI real: autenticación, roles, base de datos central, copias de seguridad,
+  aprobación de publicaciones, canal de reclamos, política de privacidad y seguridad.
+- Antes de abrir el portal a vecinos, configurar infraestructura y responsable institucional.

@@ -1,0 +1,11 @@
+SIPPI NUBE - PRUEBA
+
+1. No reemplazar la versión actual de GitHub Pages antes de probar.
+2. Publicar en una ruta separada HTTPS, por ejemplo un repositorio nuevo.
+3. Entrar con usuario de Authentication de Supabase.
+4. Importar el JSON de respaldo desde la pestaña Datos; la importación no borra registros previos.
+5. Probar desde computadora y celular.
+6. No introducir datos personales sensibles.
+7. Requiere internet y la biblioteca supabase-js cargada desde CDN.
+8. La clave publishable es pública; nunca colocar service_role ni secret keys.
+9. Antes de uso real, verificar las políticas RLS en Supabase y probar permisos con otra cuenta.
